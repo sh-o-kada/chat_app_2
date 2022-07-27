@@ -1,0 +1,72 @@
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.side{
+  width: 300px;
+  background-color: #253141
+}
+.side_header{
+  height: 100px;
+  padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_name a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+  text-decoration: none;
+  background-color: #253141;
+}
+
+.create_room a{
+  font-size: 10px;
+  color: deepskyblue;
+  text-decoration: none;
+  padding: 14px;
+  border: 1px solid lightblue;
+}
+
+.rooms{
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+  background-color: #2F3E51;
+  overflow: scroll;
+}
+
+.room{
+  padding: 20px 0 40px;
+}
+
+.room a{
+  color: white;
+  text-decoration: none;
+}
+.main{
+  width: calc(100vw - 300px);
+  background-color: #FFFFFF;
+}
+
+.main_header{
+  height: 100px;
+  padding: 0 40px;
+  background-color: #FFFFFF;
+}
+
+.chat{
+  height: calc(100vh - 100px - 90px);
+  padding: 46px 40px 0;
+  background-color: #FAFAFA;
+}
+
+.form{
+  height: 90px;
+  padding: 20px 40px;
+  background-color: #DDDDDD;
+}
